@@ -1,17 +1,21 @@
-@if(function_exists('get_region_halland_tree_first_level'))
-    @php($myFrontNavs = get_region_halland_tree_first_level()) 
-    @if(isset($myFrontNavs))
-        @foreach ($myFrontNavs as $myFrontNav)    
-            <li class="col-12 md-col-4 lg-col-4">
-                <div class="p3">
-                    <span class="center strong">
-                        <svg class="icon-badge icon-badge--md mr1" viewBox="0 0 8 8">
-                            {!! get_region_halland_icon('chevron-right') !!}
-                        </svg>
-                        <a href="{{ get_page_link($myFrontNav->ID) }}" style="vertical-align: middle; color: #004B93">{{ $myFrontNav->post_title }}</a>
-                    </span>
-                </div>
-            </li>
-        @endforeach
-    @endif
+@if(function_exists('get_region_halland_get_single_page'))
+    @php($myPage = get_region_halland_get_single_page(30)) 
+	<nav aria-label="Huvudnavigation" class="container background-dark-blue-frida mx-auto mobile-friendly-padding" style="background-image: url({{ $myPage->image_url }}); background-size: cover;">
+		<div class="pt6">&nbsp;</div>
+		<div class="pr6">
+		<div class="pr6">
+		<div class="pr6">
+		<div class="pr6">
+		<div class="pr6">
+	    		<div class="p1 h3 background-black">
+	      			<div class="p3 text-white">
+	        			{{ $myPage->post_content }}
+	    			</div>          
+	            </div>	
+		</div>
+		</div>
+		</div>
+		</div>
+		</div>
+	</nav>
 @endif
