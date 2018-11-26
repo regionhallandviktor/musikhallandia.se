@@ -15,7 +15,7 @@
 									{!! $myNyhet->image !!}
 								</div>
 								<div class="pb2">
-									<h2 class="h4"><a href="{{ $myNyhet->link_url }}" target="{{ $myNyhet->link_target }}">{{ $myNyhet->post_title }}</a></h2 class="h3">
+									<h2 class="h4"><a href="{{ $myNyhet->url }}">{{ $myNyhet->post_title }}</a></h2 class="h3">
 								</div>
 								<div class="h5 pb3">{{ $myNyhet->post_content }}</div>
 							</div>
