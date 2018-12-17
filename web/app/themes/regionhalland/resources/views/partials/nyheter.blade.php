@@ -10,14 +10,14 @@
 					<div class="flex flex-wrap">
 						@foreach ($myNews as $myNyhet)
 						<div class="col-12 lg-col-4">
-							<div class="pb3 pl3 pr3 pt0">
-								<div class="mb2 small">
+							<div class="pb3 pl0 pr0 pt0">
+								<div class="mb2 small p2">
 									{!! $myNyhet->image !!}
 								</div>
-								<div class="pb2">
+								<div class="pr2 pl2 pb2 pt0">
 									<h2 class="h4"><a href="{{ $myNyhet->url }}">{{ $myNyhet->post_title }}</a></h2 class="h3">
 								</div>
-								<div class="h5 pb3">{{ $myNyhet->post_content }}</div>
+								<div class="h5 pl2 pr2 pb3">{{ $myNyhet->description }}</div>
 							</div>
 						</div>
 						@endforeach

@@ -46,6 +46,11 @@
 								@while(have_posts()) @php(the_post())
 									@include('partials.article')
 										
+
+										<?php 
+											$test = get_field_object('field_1000006'); 
+											var_dump($test);
+										?>					
 										<br>
 										{{ get_region_halland_acf_page_education_A_short_description() }}<br>
 										{{ get_region_halland_acf_page_education_A_kommun_name() }}<br>
