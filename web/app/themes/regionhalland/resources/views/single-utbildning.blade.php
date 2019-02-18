@@ -45,16 +45,6 @@
 							<div id="main">
 								@while(have_posts()) @php(the_post())
 									@include('partials.article')
-										
-										{{ get_region_halland_acf_page_education_A_short_description() }}<br><br>
-										Kommun: {{ get_region_halland_acf_page_education_A_kommun_name() }}<br><br>
-										{{ get_region_halland_acf_page_education_A_link_title() }}<br>
-										{{ get_region_halland_acf_page_education_A_link_url() }}<br>
-										{{ get_region_halland_acf_page_education_A_link_target() }}<br><br>
-										Utbildningen börjar: {{ get_region_halland_acf_page_education_A_start_time() }}<br>
-										Utbildningen slutar: {{ get_region_halland_acf_page_education_A_end_time() }}<br>
-										Sista ansökningsdag: {{ get_region_halland_acf_page_education_A_last_time() }}<br>
-									
 									@include('partials.entry-meta')
 								@endwhile
 							</div>
