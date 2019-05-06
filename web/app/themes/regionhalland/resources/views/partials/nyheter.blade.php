@@ -1,5 +1,5 @@
-@if(function_exists('get_region_halland_get_page_news_A'))
-	@php($myNews = get_region_halland_get_page_news_A(3))	
+@if(function_exists('get_region_halland_get_page_news_simple'))
+	@php($myNews = get_region_halland_get_page_news_simple(3))	
 	@if(isset($myNews))
 		<div class="container mx-auto pl4 pr4 pb1 pt0">
 			<div class="m4">

@@ -1,5 +1,5 @@
-@if(function_exists('get_region_halland_acf_page_settings_A_front'))
-	@php($myPages = get_region_halland_acf_page_settings_A_front())	
+@if(function_exists('get_region_halland_main_post_settings_vuxhalland_front'))
+	@php($myPages = get_region_halland_main_post_settings_vuxhalland_front())	
 	@if(isset($myPages))
 		<div class="container mx-auto pl4 pr4 pb0 pt2">
 			<div class="m4">
