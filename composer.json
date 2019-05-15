@@ -65,11 +65,19 @@
     },
     {
       "type": "vcs",
+      "url": "https://github.com/RegionHalland/region-halland-page-children.git"
+    },
+    {
+      "type": "vcs",
       "url": "https://github.com/RegionHalland/region-halland-tree-first-level.git"
     },
     {
       "type": "vcs",
       "url": "https://github.com/RegionHalland/region-halland-acf-page-links-blurbs.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/RegionHalland/region-halland-acf-page-menu-text.git"
     },
     {
       "type": "vcs",
@@ -88,7 +96,7 @@
     "wpackagist-plugin/admin-menu-editor": "1.8.5",
     "regionhalland/region-halland-acf-add-theme-subpage": "1.0.0",
     "regionhalland/region-halland-acf-cookie-notice": "1.0.0",
-    "regionhalland/region-halland-acf-page-education-repeater": "1.2.0",
+    "regionhalland/region-halland-acf-page-education-repeater": "1.3.0",
     "regionhalland/region-halland-main-post-settings-vuxhalland": "1.0.1",
     "regionhalland/region-halland-breadcrumbs-pages": "1.1.1",
     "regionhalland/region-halland-find-on-page": "1.1.0",
@@ -96,6 +104,8 @@
     "regionhalland/region-halland-single-page-information": "1.0.0",
     "regionhalland/region-halland-tree-first-level": "1.1.0",
     "regionhalland/region-halland-acf-page-links-blurbs": "1.4.2",
+    "regionhalland/region-halland-page-children": "1.1.0",
+    "regionhalland/region-halland-acf-page-menu-text": "1.0.0",
     "regionhalland/region-halland-acf-pro-5-6-8": "5.6.8"
   },
   "require-dev": {
