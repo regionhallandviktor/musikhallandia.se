@@ -1,4 +1,4 @@
-<footer class="rh-footer-logo">
+<footer class="rh-footer-logo mx-auto mt3" style="max-width: 1440px;">
 
     <div class="rh-footer-logo-div">
         <img class="rh-footer-logo-item" src="{!! env('WP_HOME') !!}/styleguide4.0.0/images/components/kommuner_logo/RegionHalland.png" alt="RegionHalland Logo">
