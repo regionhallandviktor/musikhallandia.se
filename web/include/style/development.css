@@ -25,6 +25,10 @@
  */
 /*{"last_published":"2019-03-26 12:14:02 UTC"}*/
 
+.rh-education-list__item:nth-child(odd) {
+  background: #F8F6F4;
+}
+
 @import url("https://p.typekit.net/p.css?s=1&k=jtz6kph&ht=tk&f=39257.39258.39259.39260.39261.39262.39263.39264&a=15674300&app=typekit&e=css");
 
 @font-face {
