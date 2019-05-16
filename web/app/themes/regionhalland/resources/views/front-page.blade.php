@@ -1,7 +1,5 @@
 @extends('layouts.app')
-
 @section('content')
-
     @php($myBlurbs = get_region_halland_acf_main_post_page_links_blurbs())
     @if(isset($myBlurbs))
 
