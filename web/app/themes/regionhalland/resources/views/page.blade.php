@@ -19,7 +19,7 @@
 				</div>
 
 			<div class="clearfix">
-				<div class="col col-12 md-col-10">
+				<div class="col col-12 md-col-9">
 					@while(have_posts()) @php(the_post())
 					<h1>{{ $post->post_title }}</h1><br><br>
 					@if(function_exists('get_region_halland_prepare_the_content'))
@@ -28,7 +28,7 @@
 					{{ the_content() }}
 					@endwhile
 				</div>
-				<div class="col col-12 md-col-2">
+				<div class="pl4 col col-12 md-col-3">
 					@include('partials.content-nav')
 				</div>
 			</div>
