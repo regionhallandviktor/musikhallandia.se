@@ -5,7 +5,8 @@
         @include('partials.jump-to-content')
         @include('partials.cookie-notice')
         @include('partials.header')
-        @include('partials.hero')
+
+
         @yield('content')
         @include('partials.footer')
     </body>
