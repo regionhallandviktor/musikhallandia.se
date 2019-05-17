@@ -1,5 +1,5 @@
-<nav aria-label="Undersidor">
-    <ul class="clearfix pt3 mb4" aria-label="Undersidor" style="background-color: white; border-radius: 0.4ex;box-shadow: 1px 2px 6px grey;">
+<nav aria-label="Undersidor" class="mx-auto" style="max-width: 1440px;">
+    <ul class="clearfix pt3" aria-label="Undersidor" style="background-color: white; border-radius: 0.4ex;">
         @php($page_children = get_region_halland_page_children())
         @foreach($page_children as $index => $page)
             <li class="rh-navigation-card col col-12 sm-col-6 md-col-4 lg-col-4 px3" style="position:relative">
