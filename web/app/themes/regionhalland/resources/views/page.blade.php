@@ -20,9 +20,13 @@
 
 			<div class="clearfix">
 				<div class="col col-12 md-col-10">
-					<h1>{{ $post->post_title }}</h1>
-
+					@while(have_posts()) @php(the_post())
+					<h1>{{ $post->post_title }}</h1><br><br>
+					@if(function_exists('get_region_halland_prepare_the_content'))
+						@php(get_region_halland_prepare_the_content())
+					@endif
 					{{ the_content() }}
+					@endwhile
 				</div>
 				<div class="col col-12 md-col-2">
 					@include('partials.content-nav')
