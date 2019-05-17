@@ -45,7 +45,7 @@
 
 
 
-    <nav aria-label="Undersidor" style="background-color: #F4F4F4;">
+    <nav aria-label="Undersidor">
         <ul class="flex flex-wrap px3 pt3 center" aria-label="Undersidor" style="max-width: 1440px;">
             @php($first_level_pages = get_region_halland_tree_first_level())
             @foreach($first_level_pages as $index => $page)
