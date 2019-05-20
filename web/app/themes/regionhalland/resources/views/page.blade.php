@@ -8,14 +8,14 @@
 			{{-- Back button component: --}}
 			@php($myParentPage = get_region_halland_parent_page())
 				<div class="pb3 rh-label-previous">
-					<span class="rh-label-previous-icon"></span>
-					<p class="rh-label-previous-title">
-						@if($myParentPage['has_back'] == 1)
-							<a href="{{$myParentPage['url']}}" style="color:black;">{{$myParentPage['post_title']}}</a>
-						@else
-							<a href="/" style="color:black;">Startsidan</a>
-						@endif
-					</p>
+					@if($myParentPage['has_back'] == 1)
+						<a href="{{$myParentPage['url']}}" class="rh-round-button--vuxhalland rh-round-button icon-arrow-left"></a>
+						<a href="{{$myParentPage['url']}}" class="pl1 rh-link--navigation">{{$myParentPage['post_title']}}</a>
+
+					@else
+						<a href="/" class="rh-round-button--vuxhalland rh-round-button icon-arrow-left"></a>
+						<a href="/" class="pl1 rh-link--navigation">Startsidan</a>
+					@endif
 				</div>
 
 			<div class="clearfix">
