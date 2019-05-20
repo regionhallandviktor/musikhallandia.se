@@ -5,11 +5,11 @@
         <div class="rh-toplinks" style="background: #FBFAF9;">
             <ul class="rh-toplinks-nav" aria-label="Genvägar i sidhuvudet">
                 <li style="display:inline;">
-                    <a onclick="toggleBar();" href="#" class="icon-volume-1 rh-round-button" style="border: 1px solid #E99579; background: #E99579; color:black;"></a>
+                    <a onclick="toggleBar();" href="#" class="icon-volume-1 rh-round-button rh-round-button--vuxhalland"></a>
                     <a id="bapluslogo" class="rh-toplinks-nav-link logo" title="Aktivera Talande Webb" onclick="toggleBar();" href="#">Talande Webb</a>
                 </li>
                 <li style="display:inline;">
-                    <a class="icon-volume-1 rh-round-button" style="border: 1px solid #E99579; background: #E99579; color:black;"></a>
+                    <a href="./om-oss" class="icon-arrow-right rh-round-button rh-round-button--vuxhalland"></a>
                     <a class="rh-toplinks-nav-link logo" href="./om-oss">Om oss</a>
                 </li>
             </ul>
