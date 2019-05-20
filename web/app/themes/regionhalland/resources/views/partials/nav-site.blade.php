@@ -1,4 +1,4 @@
-<div style="background: #FBFAF9;">
+
     <nav class="rh-header center px3" aria-label="Sidhuvud" style="max-width: 1440px; background: #FBFAF9;">
         <span class="h1"><strong><a style="text-decoration:none; color:black;" href="/">Yrkesutbildning i Halland</a></strong></span>
         {{-- Utilities --}}
@@ -17,4 +17,3 @@
 
         {{-- Utilities END --}}
     </nav>
-</div>
