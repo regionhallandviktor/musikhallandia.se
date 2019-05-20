@@ -5,7 +5,7 @@
             <li class="rh-navigation-card col col-12 sm-col-6 md-col-4 lg-col-4 px3" style="position:relative">
                 <div class="rh-navigation-card-title">
                     <a href="{{ $page->url }}" class="rh-round-button rh-round-button--small rh-round-button--vuxhalland icon-arrow-right"></a>
-                    <strong><a href="{{ $page->url }}" class="h3" style="text-decoration: none; color: black; line-height: 1.4;">
+                    <strong><a href="{{ $page->url }}" class="h3 rh-link--navigation" style="line-height: 1.4;">
                         {{ $page->post_title }}
                     </a></strong>
                 </div>
