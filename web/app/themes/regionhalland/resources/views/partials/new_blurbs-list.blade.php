@@ -9,7 +9,7 @@
                         <img src="{!! $blurbs['image_url'] !!}" style="width:100%; position: absolute; top:50%; transform: translateY(-50%);">
                     </div>
                     <div class="mx2 pt2 rh-blurb__description" >
-                        <h3><a href="{{ $blurbs['link_url'] }}" target="{{ $blurbs['link_target'] }}" style="color:black">{{ $blurbs['link_title'] }}</a></h3>
+                        <h3><a href="{{ $blurbs['link_url'] }}" target="{{ $blurbs['link_target'] }}"  class="rh-link--navigation">{{ $blurbs['link_title'] }}</a></h3>
                         <p>{{ $blurbs['post_content'] }}</p>
                     </div>
                 </div>
