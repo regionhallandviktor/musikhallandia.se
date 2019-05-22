@@ -34,7 +34,7 @@
             @endif
 
             @if( isset($myBlurbs[2]) )
-                <li class="left-align  col col-12 sm-col-6 md-col-6 lg-col-4">
+                <li class="left-align  col col-12 sm-col-12 md-col-12 lg-col-4">
                     <div class="rh-blurb mx1 my2" style="border-bottom: 4px solid #E99579; background: white;">
                         <div style="height: 200px; overflow:hidden;position:relative">
                             <img src="{!! $myBlurbs[2]['image_url'] !!}" style="width:100%; position: absolute; top:50%; transform: translateY(-50%);">
