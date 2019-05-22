@@ -3,8 +3,8 @@
     @php($myBlurbs = get_region_halland_acf_main_post_page_links_blurbs())
     @if(isset($myBlurbs))
 
-        <ul class="clearfix center pb3 pt3 rh-xpad-B" style="max-width:1440px;background: #F0EEEC;">
-<h1>Vilken utbildning passar dig?</h1>
+        <ul class="clearfix center pb3 pt3" style="max-width:1440px;background: #F8F6F4;">
+        <h1>Vilken utbildning passar dig?</h1>
             <li class="left-align col col-12 sm-col-6 md-col-6 lg-col-4">
                 <div class="rh-blurb mx1 my2" style="border-bottom: 4px solid #E99579; background:white;">
                     <div style="height: 200px; overflow:hidden;position:relative">
@@ -44,8 +44,6 @@
 
     @endif
 
-
-
     <nav aria-label="Undersidor">
         <ul class="flex flex-wrap px3 pt3 center" aria-label="Undersidor" style="max-width: 1440px;">
             @php($first_level_pages = get_region_halland_tree_first_level())
@@ -66,3 +64,5 @@
     </nav>
 
 @endsection
+
+
