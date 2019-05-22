@@ -1,29 +1,29 @@
 <footer class="rh-footer-logo mx-auto mt1" id="footer-top-placeholder" style="max-width: 1440px;">
 
     <div class="rh-footer-logo-div">
-        <a href="https://www.regionhalland.se"><img class="rh-footer-logo-item" src="{!! env('WP_HOME') !!}/styleguide4.0.0/images/components/kommuner_logo/RegionHalland.png" alt="RegionHalland Logo"></a>
+        <a href="https://www.regionhalland.se"><img class="rh-footer-logo-item" src="{!! env('WP_HOME') !!}/styleguide4.2.0/images/components/kommuner_logo/RegionHalland.png" alt="RegionHalland Logo"></a>
     </div>
     <div class="rh-footer-logo-div">
-        <a href="https://www.falkenberg.se/"><img class="rh-footer-logo-item" src="{!! env('WP_HOME') !!}/styleguide4.0.0/images/components/kommuner_logo/Falkenberg.png" alt="Falkenberg Logo"></a>
+        <a href="https://www.falkenberg.se/"><img class="rh-footer-logo-item" src="{!! env('WP_HOME') !!}/styleguide4.2.0/images/components/kommuner_logo/Falkenberg.png" alt="Falkenberg Logo"></a>
     </div>
     <div class="rh-footer-logo-div">
-        <a href="https://www.halmstad.se/"><img class="rh-footer-logo-item" src="{!! env('WP_HOME') !!}/styleguide4.0.0/images/components/kommuner_logo/Halmstad.png" alt="Halmstad Logo"></a>
+        <a href="https://www.halmstad.se/"><img class="rh-footer-logo-item" src="{!! env('WP_HOME') !!}/styleguide4.2.0/images/components/kommuner_logo/Halmstad.png" alt="Halmstad Logo"></a>
     </div>
     <div class="rh-footer-logo-div">
-        <a href="http://hylte.se/"><img class="rh-footer-logo-item" src="{!! env('WP_HOME') !!}/styleguide4.0.0/images/components/kommuner_logo/Hylte.png" alt="Hylte Logo"></a>
+        <a href="http://hylte.se/"><img class="rh-footer-logo-item" src="{!! env('WP_HOME') !!}/styleguide4.2.0/images/components/kommuner_logo/Hylte.png" alt="Hylte Logo"></a>
     </div>
     <div class="rh-footer-logo-div">
-        <a href="https://www.laholm.se/"><img class="rh-footer-logo-item" src="{!! env('WP_HOME') !!}/styleguide4.0.0/images/components/kommuner_logo/Laholm.png" alt="Laholm Logo"></a>
+        <a href="https://www.laholm.se/"><img class="rh-footer-logo-item" src="{!! env('WP_HOME') !!}/styleguide4.2.0/images/components/kommuner_logo/Laholm.png" alt="Laholm Logo"></a>
     </div>
     <div class="rh-footer-logo-div">
-        <a href="https://varberg.se/"><img class="rh-footer-logo-item" src="{!! env('WP_HOME') !!}/styleguide4.0.0/images/components/kommuner_logo/Varberg.png" alt="Varberg Logo"></a>
+        <a href="https://varberg.se/"><img class="rh-footer-logo-item" src="{!! env('WP_HOME') !!}/styleguide4.2.0/images/components/kommuner_logo/Varberg.png" alt="Varberg Logo"></a>
     </div>
 
 </footer>
 
 <script src="{!! env('WP_HOME') !!}/include/scripts/jquery.3.3.1.min.js?ver=3.3.1"></script>
 
-<script src="{!! env('WP_HOME') !!}/styleguide4.0.0/js/components.js"></script>
+<script src="{!! env('WP_HOME') !!}/styleguide4.2.0/js/components.js"></script>
 
 <script>
     function debounce(delay, fn) {
