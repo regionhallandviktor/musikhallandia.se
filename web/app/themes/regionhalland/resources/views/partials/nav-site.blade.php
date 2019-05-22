@@ -1,8 +1,8 @@
 
-    <nav class="rh-header center px3" aria-label="Sidhuvud" style="max-width: 1440px; background: #FBFAF9;">
+    <nav class="rh-header center px3" aria-label="Sidhuvud" style="max-width: 1440px; background: #F8F6F4;">
         <span class="h1"><strong><a style="text-decoration:none; color:black;" href="/">Yrkesutbildning i Halland</a></strong></span>
         {{-- Utilities --}}
-        <div class="rh-toplinks" style="background: #FBFAF9;">
+        <div class="rh-toplinks" style="background: #F8F6F4;">
             <ul class="rh-toplinks-nav" aria-label="Genvägar i sidhuvudet">
                 <li style="display:inline;">
                     <a onclick="toggleBar();" href="#" class="icon-volume-1 rh-round-button rh-round-button--vuxhalland"></a>
