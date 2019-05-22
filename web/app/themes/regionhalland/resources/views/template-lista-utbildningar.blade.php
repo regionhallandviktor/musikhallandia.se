@@ -14,8 +14,6 @@
                 <ul class="rh-education-list">
                     @php($myItems = get_region_halland_acf_page_education_repeater_items())
 
-
-
                     @if($myItems['barn_fritid'])
                         <li class="pt3 pb2 rh-xpad-B rh-education-list__item">
                             <h2 class="pb2" style="width:100%; text-align:center;">Barn och fritid</h2>
@@ -279,6 +277,34 @@
                             <h2 class="pb2" style="width:100%; text-align:center;">Vård och omsorg</h2>
                             <ul class="mb4 mx-auto" style="max-width:50em;">
                                 @foreach($myItems['vard_omsorg'] as $item)
+                                    <li class="clearfix pt2 pb1" style="border-bottom: 1px solid #D1D1D1;">
+                                        <div class="col col-12 md-col-6">
+                                            <strong>
+                                                {{ $item['page']->education_name }}
+                                            </strong>
+                                        </div>
+                                        <div class="col col-12 md-col-6">
+                                            <ul aria-label="Utbildningsorter för {{ $item['page']->education_name }}">
+                                                @foreach ($item['page']->metadata as $metadata)
+                                                    <li style="display:inline;">
+                                                        <a class="rh-labels" style="text-decoration:none;background: #E99579;" href="{{ $metadata['link_url'] }}">
+                                                            {{ $metadata['kommun_name'] }}
+                                                        </a>
+                                                    </li>
+                                                @endforeach
+                                            </ul>
+                                        </div>
+                                    </li>
+                                @endforeach
+                            </ul>
+                        </li>
+                    @endif
+
+                    @if($myItems['vvs_fastighet'])
+                        <li class="pt3 pb2 rh-xpad-B rh-education-list__item">
+                            <h2 class="pb2" style="width:100%; text-align:center;">VVS och fastighet</h2>
+                            <ul class="mb4 mx-auto" style="max-width:50em;">
+                                @foreach($myItems['vvs_fastighet'] as $item)
                                     <li class="clearfix pt2 pb1" style="border-bottom: 1px solid #D1D1D1;">
                                         <div class="col col-12 md-col-6">
                                             <strong>
