@@ -7,7 +7,7 @@
 
 			{{-- Back button component: --}}
 			@php($myParentPage = get_region_halland_parent_page())
-				<div class="pb3 rh-label-previous">
+				<div class="pb3">
 					@if($myParentPage['has_back'] == 1)
 						<a href="{{$myParentPage['url']}}" class="rh-round-button--vuxhalland rh-round-button icon-arrow-left"></a>
 						<a href="{{$myParentPage['url']}}" class="pl1 rh-link--navigation">{{$myParentPage['post_title']}}</a>
