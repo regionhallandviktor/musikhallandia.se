@@ -20,16 +20,16 @@
                             <ul class="mb4 mx-auto" style="max-width:50em;">
                                 @foreach($myItems['barn_fritid'] as $item)
                                     <li class="clearfix pt2 pb1" style="border-bottom: 1px solid #D1D1D1;">
-                                        <div class="col col-12 md-col-6">
+                                        <div class="col col-12 sm-col-6 md-col-6">
                                             <strong>
                                                 {{ $item['page']->education_name }}
                                             </strong>
                                         </div>
-                                        <div class="col col-12 md-col-6">
+                                        <div class="col col-12 sm-col-6 md-col-6">
                                             <ul aria-label="Utbildningsorter för {{ $item['page']->education_name }}">
                                                 @foreach ($item['page']->metadata as $metadata)
-                                                    <li style="display:inline;">
-                                                        <a class="rh-labels" style="text-decoration:none;background: #E99579;" href="{{ $metadata['link_url'] }}">
+                                                    <li class="rh-block-on-mobile">
+                                                        <a class="rh-labels" style="margin-top: 0.4ex; margin-bottom:0.4ex; text-decoration:none;background: #E99579;" href="{{ $metadata['link_url'] }}">
                                                             {{ $metadata['kommun_name'] }}
                                                         </a>
                                                     </li>
@@ -48,16 +48,16 @@
                             <ul class="mb4 mx-auto" style="max-width:50em;">
                                 @foreach($myItems['bygg_anlaggning'] as $item)
                                     <li class="clearfix pt2 pb1" style="border-bottom: 1px solid #D1D1D1;">
-                                        <div class="col col-12 md-col-6">
+                                        <div class="col col-12 sm-col-6 md-col-6">
                                             <strong>
                                                 {{ $item['page']->education_name }}
                                             </strong>
                                         </div>
-                                        <div class="col col-12 md-col-6">
+                                        <div class="col col-12 sm-col-6 md-col-6">
                                             <ul aria-label="Utbildningsorter för {{ $item['page']->education_name }}">
                                                 @foreach ($item['page']->metadata as $metadata)
-                                                    <li style="display:inline;">
-                                                        <a class="rh-labels" style="text-decoration:none;background: #E99579;" href="{{ $metadata['link_url'] }}">
+                                                    <li class="rh-block-on-mobile">
+                                                        <a class="rh-labels" style="margin-top: 0.4ex; margin-bottom:0.4ex; text-decoration:none;background: #E99579;" href="{{ $metadata['link_url'] }}">
                                                             {{ $metadata['kommun_name'] }}
                                                         </a>
                                                     </li>
@@ -76,16 +76,16 @@
                             <ul class="mb4 mx-auto" style="max-width:50em;">
                                 @foreach($myItems['el_energi'] as $item)
                                     <li class="clearfix pt2 pb1" style="border-bottom: 1px solid #D1D1D1;">
-                                        <div class="col col-12 md-col-6">
+                                        <div class="col col-12 sm-col-6 md-col-6">
                                             <strong>
                                                 {{ $item['page']->education_name }}
                                             </strong>
                                         </div>
-                                        <div class="col col-12 md-col-6">
+                                        <div class="col col-12 sm-col-6 md-col-6">
                                             <ul aria-label="Utbildningsorter för {{ $item['page']->education_name }}">
                                                 @foreach ($item['page']->metadata as $metadata)
-                                                    <li style="display:inline;">
-                                                        <a class="rh-labels" style="text-decoration:none;background: #E99579;" href="{{ $metadata['link_url'] }}">
+                                                    <li class="rh-block-on-mobile">
+                                                        <a class="rh-labels" style="margin-top: 0.4ex; margin-bottom:0.4ex; text-decoration:none;background: #E99579;" href="{{ $metadata['link_url'] }}">
                                                             {{ $metadata['kommun_name'] }}
                                                         </a>
                                                     </li>
@@ -104,16 +104,16 @@
                             <ul class="mb4 mx-auto" style="max-width:50em;">
                                 @foreach($myItems['fordon_transport'] as $item)
                                     <li class="clearfix pt2 pb1" style="border-bottom: 1px solid #D1D1D1;">
-                                        <div class="col col-12 md-col-6">
+                                        <div class="col col-12 sm-col-6 md-col-6">
                                             <strong>
                                                 {{ $item['page']->education_name }}
                                             </strong>
                                         </div>
-                                        <div class="col col-12 md-col-6">
+                                        <div class="col col-12 sm-col-6 md-col-6">
                                             <ul aria-label="Utbildningsorter för {{ $item['page']->education_name }}">
                                                 @foreach ($item['page']->metadata as $metadata)
-                                                    <li style="display:inline;">
-                                                        <a class="rh-labels" style="text-decoration:none;background: #E99579;" href="{{ $metadata['link_url'] }}">
+                                                    <li class="rh-block-on-mobile">
+                                                        <a class="rh-labels" style="margin-top: 0.4ex; margin-bottom:0.4ex; text-decoration:none;background: #E99579;" href="{{ $metadata['link_url'] }}">
                                                             {{ $metadata['kommun_name'] }}
                                                         </a>
                                                     </li>
@@ -136,16 +136,16 @@
                             <ul class="mb4 mx-auto" style="max-width:50em;">
                                 @foreach($myItems['handel_administration'] as $item)
                                     <li class="clearfix pt2 pb1" style="border-bottom: 1px solid #D1D1D1;">
-                                        <div class="col col-12 md-col-6">
+                                        <div class="col col-12 sm-col-6 md-col-6">
                                             <strong>
                                                 {{ $item['page']->education_name }}
                                             </strong>
                                         </div>
-                                        <div class="col col-12 md-col-6">
+                                        <div class="col col-12 sm-col-6 md-col-6">
                                             <ul aria-label="Utbildningsorter för {{ $item['page']->education_name }}">
                                                 @foreach ($item['page']->metadata as $metadata)
-                                                    <li style="display:inline;">
-                                                        <a class="rh-labels" style="text-decoration:none;background: #E99579;" href="{{ $metadata['link_url'] }}">
+                                                    <li class="rh-block-on-mobile">
+                                                        <a class="rh-labels" style="margin-top: 0.4ex; margin-bottom:0.4ex; text-decoration:none;background: #E99579;" href="{{ $metadata['link_url'] }}">
                                                             {{ $metadata['kommun_name'] }}
                                                         </a>
                                                     </li>
@@ -166,16 +166,16 @@
                             <ul class="mb4 mx-auto" style="max-width:50em;">
                                 @foreach($myItems['hantverk'] as $item)
                                     <li class="clearfix pt2 pb1" style="border-bottom: 1px solid #D1D1D1;">
-                                        <div class="col col-12 md-col-6">
+                                        <div class="col col-12 sm-col-6 md-col-6">
                                             <strong>
                                                 {{ $item['page']->education_name }}
                                             </strong>
                                         </div>
-                                        <div class="col col-12 md-col-6">
+                                        <div class="col col-12 sm-col-6 md-col-6">
                                             <ul aria-label="Utbildningsorter för {{ $item['page']->education_name }}">
                                                 @foreach ($item['page']->metadata as $metadata)
-                                                    <li style="display:inline;">
-                                                        <a class="rh-labels" style="text-decoration:none;background: #E99579;" href="{{ $metadata['link_url'] }}">
+                                                    <li class="rh-block-on-mobile">
+                                                        <a class="rh-labels" style="margin-top: 0.4ex; margin-bottom:0.4ex; text-decoration:none;background: #E99579;" href="{{ $metadata['link_url'] }}">
                                                             {{ $metadata['kommun_name'] }}
                                                         </a>
                                                     </li>
@@ -194,16 +194,16 @@
                             <ul class="mb4 mx-auto" style="max-width:50em;">
                                 @foreach($myItems['industriteknik'] as $item)
                                     <li class="clearfix pt2 pb1" style="border-bottom: 1px solid #D1D1D1;">
-                                        <div class="col col-12 md-col-6">
+                                        <div class="col col-12 sm-col-6 md-col-6">
                                             <strong>
                                                 {{ $item['page']->education_name }}
                                             </strong>
                                         </div>
-                                        <div class="col col-12 md-col-6">
+                                        <div class="col col-12 sm-col-6 md-col-6">
                                             <ul aria-label="Utbildningsorter för {{ $item['page']->education_name }}">
                                                 @foreach ($item['page']->metadata as $metadata)
-                                                    <li style="display:inline;">
-                                                        <a class="rh-labels" style="text-decoration:none;background: #E99579;" href="{{ $metadata['link_url'] }}">
+                                                    <li class="rh-block-on-mobile">
+                                                        <a class="rh-labels" style="margin-top: 0.4ex; margin-bottom:0.4ex; text-decoration:none;background: #E99579;" href="{{ $metadata['link_url'] }}">
                                                             {{ $metadata['kommun_name'] }}
                                                         </a>
                                                     </li>
@@ -222,16 +222,16 @@
                             <ul class="mb4 mx-auto" style="max-width:50em;">
                                 @foreach($myItems['naturbruk'] as $item)
                                     <li class="clearfix pt2 pb1" style="border-bottom: 1px solid #D1D1D1;">
-                                        <div class="col col-12 md-col-6">
+                                        <div class="col col-12 sm-col-6 md-col-6">
                                             <strong>
                                                 {{ $item['page']->education_name }}
                                             </strong>
                                         </div>
-                                        <div class="col col-12 md-col-6">
+                                        <div class="col col-12 sm-col-6 md-col-6">
                                             <ul aria-label="Utbildningsorter för {{ $item['page']->education_name }}">
                                                 @foreach ($item['page']->metadata as $metadata)
-                                                    <li style="display:inline;">
-                                                        <a class="rh-labels" style="text-decoration:none;background: #E99579;" href="{{ $metadata['link_url'] }}">
+                                                    <li class="rh-block-on-mobile">
+                                                        <a class="rh-labels" style="margin-top: 0.4ex; margin-bottom:0.4ex; text-decoration:none;background: #E99579;" href="{{ $metadata['link_url'] }}">
                                                             {{ $metadata['kommun_name'] }}
                                                         </a>
                                                     </li>
@@ -250,16 +250,16 @@
                             <ul class="mb4 mx-auto" style="max-width:50em;">
                                 @foreach($myItems['restaurang_livsmedel'] as $item)
                                     <li class="clearfix pt2 pb1" style="border-bottom: 1px solid #D1D1D1;">
-                                        <div class="col col-12 md-col-6">
+                                        <div class="col col-12 sm-col-6 md-col-6">
                                             <strong>
                                                 {{ $item['page']->education_name }}
                                             </strong>
                                         </div>
-                                        <div class="col col-12 md-col-6">
+                                        <div class="col col-12 sm-col-6 md-col-6">
                                             <ul aria-label="Utbildningsorter för {{ $item['page']->education_name }}">
                                                 @foreach ($item['page']->metadata as $metadata)
-                                                    <li style="display:inline;">
-                                                        <a class="rh-labels" style="text-decoration:none;background: #E99579;" href="{{ $metadata['link_url'] }}">
+                                                    <li class="rh-block-on-mobile">
+                                                        <a class="rh-labels" style="margin-top: 0.4ex; margin-bottom:0.4ex; text-decoration:none;background: #E99579;" href="{{ $metadata['link_url'] }}">
                                                             {{ $metadata['kommun_name'] }}
                                                         </a>
                                                     </li>
@@ -278,16 +278,16 @@
                             <ul class="mb4 mx-auto" style="max-width:50em;">
                                 @foreach($myItems['vard_omsorg'] as $item)
                                     <li class="clearfix pt2 pb1" style="border-bottom: 1px solid #D1D1D1;">
-                                        <div class="col col-12 md-col-6">
+                                        <div class="col col-12 sm-col-6 md-col-6">
                                             <strong>
                                                 {{ $item['page']->education_name }}
                                             </strong>
                                         </div>
-                                        <div class="col col-12 md-col-6">
+                                        <div class="col col-12 sm-col-6 md-col-6">
                                             <ul aria-label="Utbildningsorter för {{ $item['page']->education_name }}">
                                                 @foreach ($item['page']->metadata as $metadata)
-                                                    <li style="display:inline;">
-                                                        <a class="rh-labels" style="text-decoration:none;background: #E99579;" href="{{ $metadata['link_url'] }}">
+                                                    <li class="rh-block-on-mobile">
+                                                        <a class="rh-labels" style="margin-top: 0.4ex; margin-bottom:0.4ex; text-decoration:none;background: #E99579;" href="{{ $metadata['link_url'] }}">
                                                             {{ $metadata['kommun_name'] }}
                                                         </a>
                                                     </li>
@@ -306,16 +306,16 @@
                             <ul class="mb4 mx-auto" style="max-width:50em;">
                                 @foreach($myItems['vvs_fastighet'] as $item)
                                     <li class="clearfix pt2 pb1" style="border-bottom: 1px solid #D1D1D1;">
-                                        <div class="col col-12 md-col-6">
+                                        <div class="col col-12 sm-col-6 md-col-6">
                                             <strong>
                                                 {{ $item['page']->education_name }}
                                             </strong>
                                         </div>
-                                        <div class="col col-12 md-col-6">
+                                        <div class="col col-12 sm-col-6 md-col-6">
                                             <ul aria-label="Utbildningsorter för {{ $item['page']->education_name }}">
                                                 @foreach ($item['page']->metadata as $metadata)
-                                                    <li style="display:inline;">
-                                                        <a class="rh-labels" style="text-decoration:none;background: #E99579;" href="{{ $metadata['link_url'] }}">
+                                                    <li class="rh-block-on-mobile">
+                                                        <a class="rh-labels" style="margin-top: 0.4ex; margin-bottom:0.4ex; text-decoration:none;background: #E99579;" href="{{ $metadata['link_url'] }}">
                                                             {{ $metadata['kommun_name'] }}
                                                         </a>
                                                     </li>
@@ -334,16 +334,16 @@
                             <ul class="mb4 mx-auto" style="max-width:50em;">
                                 @foreach($myItems['ovrigt'] as $item)
                                     <li class="clearfix pt2 pb1" style="border-bottom: 1px solid #D1D1D1;">
-                                        <div class="col col-12 md-col-6">
+                                        <div class="col col-12 sm-col-6 md-col-6">
                                             <strong>
                                                 {{ $item['page']->education_name }}
                                             </strong>
                                         </div>
-                                        <div class="col col-12 md-col-6">
+                                        <div class="col col-12 sm-col-6 md-col-6">
                                             <ul aria-label="Utbildningsorter för {{ $item['page']->education_name }}">
                                                 @foreach ($item['page']->metadata as $metadata)
-                                                    <li style="display:inline;">
-                                                        <a class="rh-labels" style="text-decoration:none;background: #E99579;" href="{{ $metadata['link_url'] }}">
+                                                    <li class="rh-block-on-mobile">
+                                                        <a class="rh-labels" style="margin-top: 0.4ex; margin-bottom:0.4ex; text-decoration:none;background: #E99579;" href="{{ $metadata['link_url'] }}">
                                                             {{ $metadata['kommun_name'] }}
                                                         </a>
                                                     </li>
