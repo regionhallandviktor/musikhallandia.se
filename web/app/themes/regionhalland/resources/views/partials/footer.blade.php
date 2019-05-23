@@ -4,7 +4,7 @@
         <a href="https://www.regionhalland.se"><img class="rh-footer-logo-item" src="{!! env('WP_HOME') !!}/styleguide4.2.0/images/components/kommuner_logo/RegionHalland.png" alt="RegionHalland Logo"></a>
     </div>
     <div class="rh-footer-logo-div">
-        <a href="https://www.falkenberg.se/"><img class="rh-footer-logo-item" src="{!! env('WP_HOME') !!}/styleguide4.2.0/images/components/kommuner_logo/Falkenberg.png" alt="Falkenberg Logo"></a>
+        <a href="https://kommun.falkenberg.se/"><img class="rh-footer-logo-item" src="{!! env('WP_HOME') !!}/styleguide4.2.0/images/components/kommuner_logo/Falkenberg.png" alt="Falkenberg Logo"></a>
     </div>
     <div class="rh-footer-logo-div">
         <a href="https://www.halmstad.se/"><img class="rh-footer-logo-item" src="{!! env('WP_HOME') !!}/styleguide4.2.0/images/components/kommuner_logo/Halmstad.png" alt="Halmstad Logo"></a>
