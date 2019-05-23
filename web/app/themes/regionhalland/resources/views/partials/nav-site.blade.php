@@ -1,13 +1,13 @@
 
-    <nav class="rh-header center pr3" aria-label="Sidhuvud" style="max-width: 1440px; background: #F8F6F4; padding-top:0; padding-bottom: 0;">
-        <div class="rh-block-on-mobile rh-responsive-headline px3" style="line-height: 100px; height:100px; background:#D07D88;">
+    <nav class="rh-header center" aria-label="Sidhuvud" style="max-width: 1440px; background: #F8F6F4; padding-top:0; padding-bottom: 0;">
+        <div class="rh-block-on-mobile rh-responsive-headline px3 rh-visual-element--vuxhalland-logo-stripe" >
             <strong>
                 <a style="text-decoration:none; color:black;" href="/">
                     Yrkesutbildning i Halland
                 </a>
             </strong>
         </div>
-        <div class="hidden-sm" style="width:0;height:0; border-left:50px solid #D07D88; border-bottom:50px solid #D07D88; border-top:50px solid transparent; border-right:50px solid transparent;"></div>
+        <div class="hidden-sm rh-visual-element--triangle"></div>
         {{-- Utilities --}}
         <div class="rh-toplinks" style="background: #F8F6F4;">
             <ul class="rh-toplinks-nav" aria-label="Genvägar i sidhuvudet">
@@ -19,7 +19,7 @@
                 </li>
                 <li class="rh-block-on-mobile" style="line-height:2">
                     <a href="./om-oss" class="icon-arrow-right rh-round-button rh-round-button--vuxhalland"></a>
-                    <a class="rh-toplinks-nav-link logo" href="./om-oss">
+                    <a class="rh-toplinks-nav-link logo pr3" href="./om-oss">
                         Om oss
                     </a>
                 </li>
