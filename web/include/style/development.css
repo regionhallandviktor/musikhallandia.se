@@ -215,7 +215,7 @@ footer a {
       -ms-flex: 1 0 auto;
           flex: 1 0 auto;
 }
-
+/*
 .hidden-sm {
   display: none;
 }
@@ -225,7 +225,7 @@ footer a {
     display: block;
   }
 }
-
+*/
 .hidden-inline-sm {
   display: none;
 }
