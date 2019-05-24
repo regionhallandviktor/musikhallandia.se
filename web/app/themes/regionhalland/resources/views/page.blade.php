@@ -3,7 +3,7 @@
 @section('content') 	
 
 	<div class="rh-xpad-A pt3 pb3 clearfix center" style="max-width: 1440px;background: #FBFAF9">
-		<main class="rh-xpad-B pt3 pb3">
+		<main class="rh-xpad-B pt3 pb3" style="background: white;">
 
 			{{-- Back button component: --}}
 			@php($myParentPage = get_region_halland_parent_page())
