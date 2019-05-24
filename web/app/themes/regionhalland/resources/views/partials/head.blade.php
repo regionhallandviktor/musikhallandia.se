@@ -35,4 +35,20 @@
 			line-height: 1.37em;
 		}
 	</style>
+
+	<style>
+		.rh-article ul {
+			list-style-type: disc;
+			padding-left: 2ex;
+			line-height: 1.37em;
+		}
+
+		.rh-article ol {
+			list-style-type: decimal;
+			padding-left: 2ex;
+			line-height: 1.37em;
+		}
+
+
+	</style>
 </head>
