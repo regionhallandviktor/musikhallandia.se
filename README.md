@@ -23,16 +23,7 @@ Du bör nu kunna nå Wordpress webbinstallerare från din sajts URL. Om du har e
 # Egna region-halland-plugins som används (för övriga: se composer.json i roten)
 
 ```sh
-    "php": ">=5.6",
-    "composer/installers": "^1.4",
-    "vlucas/phpdotenv": "^2.0.1",
-    "johnpbloch/wordpress": "4.9.8",
-    "oscarotero/env": "^1.1.0",
-    "roots/wp-password-bcrypt": "1.0.0",
-    "roots/wp-config": "1.0.0",
-    "wpackagist-plugin/wp-nested-pages": "2.0.4",
-    "wpackagist-plugin/admin-menu-editor": "1.8.5",
-    "wpackagist-plugin/wp-migrate-db": "1.0.10",
+    
     "regionhalland/region-halland-acf-add-theme-subpage": "1.0.0",
     "regionhalland/region-halland-acf-cookie-notice": "1.0.0",
     "regionhalland/region-halland-acf-page-education-repeater": "1.4.0",
