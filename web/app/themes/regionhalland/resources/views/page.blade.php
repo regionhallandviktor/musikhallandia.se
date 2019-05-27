@@ -3,7 +3,7 @@
 @section('content') 	
 
 	<div class="rh-xpad-A pt3 pb3 clearfix center" style="max-width: 1440px;background: #FBFAF9">
-		<div class="rh-xpad-B pt3 pb3 rh-article" style="background: white;">
+		<div class="rh-xpad-B pt3 pb3" style="background: white;">
 			<main>
 
 				{{-- Back button component: --}}
@@ -20,7 +20,7 @@
 					</div>
 
 				<div class="clearfix">
-					<div class="col col-12 md-col-9">
+					<div class="col col-12 md-col-9 rh-article">
 						@while(have_posts()) @php(the_post())
 						<h1>{{ $post->post_title }}</h1><br><br>
 						@if(function_exists('get_region_halland_prepare_the_content'))
