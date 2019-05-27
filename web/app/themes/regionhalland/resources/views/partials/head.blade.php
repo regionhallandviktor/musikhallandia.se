@@ -21,7 +21,7 @@
 		<title>{{ $myPostType }} - Vuxhalland</title>
 	@endif   
 	<link rel="stylesheet" type="text/css" href="https://at.alicdn.com/t/font_o5hd5vvqpoqiwwmi.css">
-	<link href="{!! env('WP_HOME') !!}/styleguide4.2.0/css/components.css" rel="stylesheet"/>
+	<link href="{!! env('WP_HOME') !!}/styleguide5.0.0/css/components.css" rel="stylesheet"/>
 	<link rel="stylesheet" href="{!! env('WP_HOME') !!}/include/style/development.css" type="text/css" media="all" />
 	<style>
 		.rh-article ul {
