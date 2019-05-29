@@ -4,26 +4,7 @@
  *. https://github.com/RegionHalland/styleguide/
  *
 **/
-/*
- * The Typekit service used to deliver this font or fonts for use on websites
- * is provided by Adobe and is subject to these Terms of Use
- * http://www.adobe.com/products/eulas/tou_typekit. For font license
- * information, see the list below.
- *
- * ff-scala-sans-pro:
- *   - http://typekit.com/eulas/00000000000000003b9b1f59
- *   - http://typekit.com/eulas/00000000000000003b9b1f5a
- *   - http://typekit.com/eulas/00000000000000003b9b1f5b
- *   - http://typekit.com/eulas/00000000000000003b9b1f5c
- *   - http://typekit.com/eulas/00000000000000003b9b1f5d
- *   - http://typekit.com/eulas/00000000000000003b9b1f5e
- * ff-scala-sans-pro-condensed:
- *   - http://typekit.com/eulas/00000000000000003b9b1f5f
- *   - http://typekit.com/eulas/00000000000000003b9b1f60
- *
- * © 2009-2019 Adobe Systems Incorporated. All Rights Reserved.
- */
-/*{"last_published":"2019-03-26 12:14:02 UTC"}*/
+
 
 .rh-education-list__item:nth-child(odd) {
   background: #F8F6F4;
@@ -107,7 +88,7 @@ footer a {
 }
 
 .content-nav__item:hover {
-  border-left: 4px solid #378A30;
+  border-left: 4px solid #D07D88;
 }
 
 .content-nav-container {
@@ -133,7 +114,7 @@ footer a {
 
 @-webkit-keyframes content-hightlight-animation {
   0% {
-    background: #378A30;
+    background: #D07D88;
   }
 
   100% {
@@ -143,7 +124,7 @@ footer a {
 
 @-o-keyframes content-hightlight-animation {
   0% {
-    background: #378A30;
+    background: #D07D88;
   }
 
   100% {
@@ -153,7 +134,7 @@ footer a {
 
 @keyframes content-hightlight-animation {
   0% {
-    background: #378A30;
+    background: #D07D88;
   }
 
   100% {
